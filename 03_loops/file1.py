@@ -12,7 +12,7 @@ my_list = [1, 2, 3, 4, 5]
 #     print(i, end=" ")
 
 
-num = int(input("Enter the number : "))
+# num = int(input("Enter the number : "))
 # count = 0
 # while num > 0:
 #     num //= 10
@@ -20,8 +20,18 @@ num = int(input("Enter the number : "))
 
 # print(count)
 
-for i in range(1, 100):
-    pass
+# for i in range(1, 100):
+#     pass
 
-if num == 5:
-    pass
+# if num == 5:
+#     pass
+
+
+list = [1, 2, 3]
+for i in list:
+    if(i == 2):
+        break
+
+    print(i)
+else:
+    print("Hello")
